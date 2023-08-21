@@ -68,7 +68,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
               <p>ChatBot</p>
             </NavLink>
           </button> */}
-          <button onClick={() => handleSlideIn()} className="nav-btn">
+          {/* <button onClick={() => handleSlideIn()} className="nav-btn">
             <NavLink
               to="https://socialmedia-d770e.web.app/"
               className="side-nav-links"
@@ -77,7 +77,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
             >
               <p>Community</p>
             </NavLink>
-          </button>
+          </button> */}
         </div>
       </nav>
     </div>
